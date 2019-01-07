@@ -1,0 +1,157 @@
+.color1
+{
+    color: red;
+}
+.color2
+{
+    color: blue;
+}
+.color3
+{
+    color: green;
+}
+.color4
+{
+    color: yellow;
+}.color5
+ {
+     color: black;
+ }
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1c2331;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 5px 8px 8px 100px;
+  text-decoration: none;
+  font-size: 23px;
+    font-family:'lato',sans-serif;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #3f729b;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.gallary li{
+
+    display: none;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+.gallary1 li{
+
+    display: none;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+.gallary2 li{
+
+    display: none;
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.more,.less
+{
+    background-color: #0b51c5;
+    width: 320px;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    margin-top: 6px;
+    padding: 6px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.more1
+{
+    position: absolute;
+    top: 0;
+   background-color:black;
+    opacity: 0.6;
+    z-index: 1;
+    width: 96%;
+    height: 96%;
+    font-size: 50px;
+
+
+}
+.sign
+{
+    background-color: #3f729b;
+}
+.fa-user
+{
+ position: absolute;
+    top: 75px;
+    left: 55px;
+    color: white;
+
+}
+.fa-image
+{
+    position: absolute;
+    top: 125px;
+    left: 55px;
+    color: white;
+
+}
+.fa-trash
+{
+    position: absolute;
+    top: 175px;
+    left: 55px;
+    color: white;
+}
+.fa-cog
+{
+    position: absolute;
+    top: 225px;
+    left: 55px;
+    color: white;
+}
+.fa-comment-alt
+{
+    position: absolute;
+    top: 275px;
+    left: 55px;
+    color: white;
+}
+.fa-question-circle
+{
+    position: absolute;
+    top: 345px;
+    left: 55px;
+    color: white;
+}
